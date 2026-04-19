@@ -1,0 +1,33 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Model weights (too large for GitHub — 100MB limit)
+models/tongue_model.pth
+
+# Patient data — private
+patient_data/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Colab checkpoints
+*.ipynb_checkpoints
+
+# Datasets — too large for GitHub
+datasets/
+
+# Large training data
+training/data/
+tongue_data/
+
+# Model weights — too large for GitHub
+models/*.pth
+models/*.pt
