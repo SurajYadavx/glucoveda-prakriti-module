@@ -22,6 +22,8 @@ from api.modules.skin_analyzer    import analyze_skin
 from api.modules.fusion           import fuse_modules
 from api.download_models import ensure_models
 ensure_models()
+from api.download_models import ensure_models
+ensure_models()
 
 # ── App setup ─────────────────────────────────────────────────────────────────
 app = FastAPI(
