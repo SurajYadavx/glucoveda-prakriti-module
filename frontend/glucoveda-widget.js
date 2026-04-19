@@ -6,7 +6,7 @@
 (function () {
   "use strict";
 
-  const API_BASE = "http://localhost:8000"; // ← change to live URL before deploy
+  const API_BASE = "https://glucoveda-prakriti-module.onrender.com"; // ← change to live URL before deploy
 
   const STEPS = [
     { id:"face",   label:"Face Scan",   instruction:"Look straight at camera — good lighting on your face.", icon:"😐", duration:4000, type:"image" },
