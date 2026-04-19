@@ -20,6 +20,8 @@ from api.modules.voice_analyzer   import analyze_voice
 from api.modules.tongue_classifier import analyze_tongue
 from api.modules.skin_analyzer    import analyze_skin
 from api.modules.fusion           import fuse_modules
+from api.download_models import ensure_models
+ensure_models()
 
 # ── App setup ─────────────────────────────────────────────────────────────────
 app = FastAPI(
